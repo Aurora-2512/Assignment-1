@@ -1,0 +1,45 @@
+ul{list-style: none;}
+
+.flex-container{
+  background-image: url(Mian\ Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.flex-item1{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding-right: 60px;
+  margin-top: 40px;
+  flex-basis: auto;
+}
+
+.flex-item2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  width: 400px;
+  text-align: left;
+
+}
+
+.flex-item3{
+  display: flex;
+  flex-direction: column ;
+  align-items: end;
+  justify-content: flex-end;
+  padding-right: 60px;
+  margin-top: 250px;
+  
+  
+}
+.flex-info {
+  margin-top: auto;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  
+}

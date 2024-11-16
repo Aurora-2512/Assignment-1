@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("Main\ Background.jpg");
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 400px;
+    padding: 30px 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns labels to the left */
+    gap: 5px; /* Adds space between label and input */
+  }
+  
+  label {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    width: 100%;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #A58D8D;
+    width: 100px;
+  }
+  
+  .primary-btn {
+    background-color: #8d7b72;
+    color: white;
+  }
+  
+  .primary-btn:hover {
+    background-color: #7a6a62;
+  }
+  
+  .google-btn {
+    background-color: #db4a39;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .google-btn:hover {
+    background-color: #c63c2f;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25d366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #1ebe58;
+  }
+  
+  /* Social Signup Section */
+  .social-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 576px){
+    .container {
+        width: 400px;
+        padding: 30px 40px;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Aligns labels to the left */
+        gap: 5px; /* Adds space between label and input */
+    }
+}
